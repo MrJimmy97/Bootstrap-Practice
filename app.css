@@ -1,0 +1,37 @@
+body {
+  background-color: #ffe4e4;
+}
+
+.navbar-brand {
+  font-size: x-large;
+  color: red;
+  font-weight: 100;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.nav-link {
+  font-size: x-large;
+  color: white;
+  font-weight: 100;
+}
+
+.navbar-brand:hover {
+  color: red;
+}
+
+.nav-link:hover {
+  color: red;
+}
+
+.navbar.scrolled{background-color: rgb(247, 165, 179);
+transition: 1s;}
+
+@media  (max-width: 1200px) {#headinggroup{font-size: 3rem;
+}}
+
+.contentbottom {
+    margin-bottom: 100px;
+}
